@@ -21,7 +21,7 @@ tar xvf harbor-online-installer-v2.10.0.tgz
 ## 4. Install Harbor
 - To install Harbor with Trivy scanner:
   ```
-  ./install.sh --trivy-scan
+  ./install.sh --with-trivy
   ```
 - Or, to install Harbor with Clair scanner:
   ```
