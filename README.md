@@ -17,6 +17,7 @@ tar xvf harbor-online-installer-v2.10.0.tgz
 ## 4. Install Harbor
 - To install Harbor with Trivy scanner:
   ./install.sh --with-trivy
+  ./prepare ( to generate docker-compose yaml files for harbor service)
 
 The installation will generate all necessary Harbor service bundles and configuration files, including the Docker Compose YAML for Harbor services.
 
